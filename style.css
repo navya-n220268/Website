@@ -1,0 +1,183 @@
+body {
+    margin: 0;
+    font-family: Lucida, Bold Serif ;
+    background-color: White;
+    font-size: 25px;
+}
+
+
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    color: MistyRose;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+.Women {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+    }
+
+.Women button {
+    padding: 12px 25px;
+    border: none;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.Products {
+    padding: 40px;
+    text-align: center;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    padding: 15px;
+    width: 250px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.card img {
+    width: 60%;
+}
+
+
+.about {
+    background: white;
+    padding: 40px;
+    font-size:18px;
+    text-align: center;
+}
+
+.logo span {
+    color: #ff4d6d;
+}
+
+nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.Women {
+    text-align: center;
+    padding: 100px 20px;
+    background: palevioletred;
+}
+
+.Women h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background: black;
+    color: white;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+
+.form-container {
+    width: 300px;
+    background: white;
+    padding: 30px;
+    margin: 100px auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.form-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+
+.dashboard {
+    padding: 50px;
+    text-align: center;
+}
+
+.dash-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.box {
+    background: white;
+    padding: 30px;
+    width: 150px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+
+.Products {
+    padding: 50px;
+    text-align: center;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    width: 200px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.about, .contact {
+    padding: 60px;
+    text-align: center;
+}
+
+.contact form {
+    max-width: 400px;
+    margin: auto;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    background: #ff4d6d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+}
