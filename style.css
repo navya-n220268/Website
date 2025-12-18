@@ -7,7 +7,7 @@ body {
 
 
 header {
-    background-color: #000;
+    background-color:black;
     color: #fff;
     padding: 15px 40px;
     display: flex;
@@ -26,14 +26,13 @@ header a:hover {
 }
 
 .Women {
-    background-color: #222;
     color: white;
     text-align: center;
     padding: 80px 20px;
     }
 
-.Women button {
-    padding: 12px 25px;
+.get button {
+    padding: 12px 25px; 
     border: none;
     background-color: white;
     color: black;
@@ -61,7 +60,7 @@ header a:hover {
 }
 
 .card img {
-    width: 60%;
+    width: 95%;
 }
 
 
@@ -84,8 +83,9 @@ nav a {
 
 .Women {
     text-align: center;
-    padding: 100px 20px;
-    background: palevioletred;
+    padding: 20px 15px;
+    background: white;
+    
 }
 
 .Women h1 {
