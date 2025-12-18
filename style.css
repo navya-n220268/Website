@@ -26,10 +26,12 @@ header a:hover {
 }
 
 .Women {
+    height: 600px;
+    background-image: url("back.jpg");
     color: white;
     text-align: center;
     padding: 80px 20px;
-    }
+}
 
 .get button {
     padding: 12px 25px; 
@@ -76,11 +78,23 @@ header a:hover {
 }
 
 nav a {
+    font-size: 15px;
     color: white;
     margin-left: 20px;
     text-decoration: none;
 }
 
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav input[type="text"] {
+    padding: 7px;
+    border: none;
+    margin-top: 6px;
+    margin-right: 18px;
+    font-size: 13px;
+}
 .Women {
     text-align: center;
     padding: 20px 15px;
