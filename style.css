@@ -61,6 +61,11 @@ header a:hover {
     flex-wrap: wrap;
 }
 
+.cards {
+    display: flex;
+    gap: 20px;
+}
+
 .card {
     background: white;
     padding: 15px;
@@ -68,11 +73,21 @@ header a:hover {
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-.card img {
-    width: 95%;
+.card:hover{
+    transform: translateY(-5px);
 }
 
+.card img {
+    width: 95%;
+    border-radius: 8px;
+}
 
+.display-frame{
+    width: 100%;
+    height: 450px;
+    margin-top: 30px;
+    border: 1px solid #ccc;
+}
 .about {
     background: white;
     padding: 40px;
@@ -123,23 +138,6 @@ nav input[type="text"] {
     text-decoration: none;
     margin-top: 15px;
 }
-
-
-.form-container {
-    width: 300px;
-    background: white;
-    padding: 30px;
-    margin: 100px auto;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    text-align: center;
-}
-
-.form-container input {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-}
-
 
 .dashboard {
     padding: 50px;
@@ -201,4 +199,42 @@ button {
     color: white;
     border: none;
     padding: 10px 20px;
+}
+
+.sidebar{
+    width:150px;
+    height:90%;
+    position:fixed;
+    bottom: 0;
+    left: 0;
+    background-color: cornsilk;
+    font-size: 20px;
+}
+
+.sidebar a{
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+}
+
+a:hover{
+    opacity: 0.8;
+}
+
+.more-btn {
+    text-align: center;
+    margin-top: 150px;
+    font-size: medium;
+}
+
+.more-btn a {
+    padding: 10px 18px;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.more-btn a:hover {
+    background-color: black;
+    color: white;
 }
