@@ -5,6 +5,8 @@
     <title>FitCulture</title>
     <link rel="stylesheet" href="login.css">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <header>
@@ -17,14 +19,22 @@
     </header>
 <div class="login-container">
     <h2>Forgot Password</h2>
-    <p>Please enter your email to reset your password</p>
+    <p>Reset your account password</p>
+
+    <hr class="divider">
+
+    <div class="info-text">
+        Enter your registered email address.  
+        We will send a password reset link.
+    </div>
+
     <form action="login.html">
         <div class="input-box">
             <input type="email" placeholder="Email" required>
         </div>
-
-        <a href="login.html" class="login-btn">Reset Password</a>
-
+        <button type="submit" class="login-btn">Reset Password</button>
+    </form>
+    
         <div class="links">
             <p>Remembered your password? <a href="login.html">Login</a></p>
         </div>

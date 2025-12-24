@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+
+.header {
+    background: palevioletred;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.navbar{
+    background-color: grey;
+    text-align: center;
+    padding: 12px;
+}
+
+.navbar a{
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover{
+    color: black;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    background: white;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.icon {
+    font-size: 40px;
+    background: #eee;
+    padding: 15px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+
+.settings-list {
+    margin: 15px;
+}
+
+.setting-item {
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.setting-item span {
+    font-size: 22px;
+    margin-right: 15px;
+}
+
+.setting-item h4 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.setting-item p {
+    margin: 3px 0 0;
+    font-size: 13px;
+    color: gray;
+}
+
+.setting-item:hover {
+    background: #f9f9f9;
+}
+
+
+.logout {
+    color: black;
+}
+
+
