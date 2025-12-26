@@ -2,50 +2,95 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My Orders | FitCulture</title>
+    <title>Order Tracking | FitCulture</title>
     <link rel="stylesheet" href="order.css">
+    <link rel="stylesheet" href="profile.css">
+    <link rel="stylesheet" href="media.css">
 </head>
 <body>
 
 
-<nav class="navbar">
-    <a href="index.html">Home</a>
-    <a href="profile.html">Profile</a>
-    <a href="collection.html">Collection</a>
-    <a href="orders.html" class="active">Orders</a>
-    <a href="settings.html">Settings</a>
-</nav>
-
-
-<header class="page-header">
-    <h2>My Orders</h2>
+<header class="main-header">
+    <h2>📦 Track Your Order</h2>
 </header>
 
+<nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="profile.html">Profile</a>
+        <a href="collection.html">Collection</a>
+    </nav>
 
-<section class="orders-list">
 
-    <div class="order-card">
-        <div class="order-info">
-            <h4>Order #1023</h4>
-            <p>Placed on: 20 Dec 2025</p>
-        </div>
-        <div class="order-status delivered">Delivered</div>
+<section class="order-info">
+    <p><strong>Order ID:</strong> FC123456</p>
+    <p><strong>Product:</strong> Silk Saree</p>
+    <p><strong>Expected Delivery:</strong> 5 Jan 2026</p>
+</section>
+
+
+<section class="tracking-container">
+
+    <div class="track-step completed">
+        <span>✔</span>
+        <p>Order Placed</p>
     </div>
 
-    <div class="order-card">
-        <div class="order-info">
-            <h4>Order #1019</h4>
-            <p>Placed on: 18 Dec 2025</p>
-        </div>
-        <div class="order-status pending">Pending</div>
+    <div class="track-line completed"></div>
+
+    <div class="track-step completed">
+        <span>✔</span>
+        <p>Shipped</p>
     </div>
 
-    <div class="order-card">
-        <div class="order-info">
-            <h4>Order #1005</h4>
-            <p>Placed on: 12 Dec 2025</p>
-        </div>
-        <div class="order-status shipped">Shipped</div>
+    <div class="track-line"></div>
+
+    <div class="track-step active">
+        <span>🚚</span>
+        <p>Out for Delivery</p>
+    </div>
+
+    <div class="track-line"></div>
+
+    <div class="track-step">
+        <span>📍</span>
+        <p>Delivered</p>
+    </div>
+
+</section>
+
+<section class="order-info">
+    <p><strong>Order ID:</strong> FC123768</p>
+    <p><strong>Product:</strong> Geogette Saree</p>
+    <p><strong>Delivered:</strong>31 Dec 2025</p>
+</section>
+
+
+<section class="tracking-container">
+
+    <div class="track-step completed">
+        <span>✔</span>
+        <p>Order Placed</p>
+    </div>
+
+    <div class="track-line completed"></div>
+
+    <div class="track-step completed">
+        <span>✔</span>
+        <p>Shipped</p>
+    </div>
+
+    <div class="track-line"></div>
+
+    <div class="track-step completed">
+        <span>🚚</span>
+        <p>Out for Delivery</p>
+    </div>
+
+    <div class="track-line"></div>
+
+    <div class="track-step completed">
+        <span>📍</span>
+        <p>Delivered</p>
     </div>
 
 </section>
